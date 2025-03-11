@@ -1,4 +1,9 @@
 {
+  "homepage": "https://faridaabdelazeez.github.io/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "name": "fareeda-portfolio",
   "type": "module",
   "version": "0.0.1",
