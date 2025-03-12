@@ -1,6 +1,9 @@
 {
-  "homepage": "https://faridaabdelazeez.github.io/",
+  "homepage": "https://Farreeda.github.io/faridaabdelazeez.github.io/",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -8,18 +11,15 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
   "dependencies": {
-    "astro": "^5.2.5",
-    "@astrojs/tailwind": "^5.1.0",
-    "tailwindcss": "^3.4.1",
     "@astrojs/react": "^3.0.9",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^5.2.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
