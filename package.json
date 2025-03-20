@@ -1,11 +1,10 @@
 {
-  "homepage": "https://Farreeda.github.io/faridaabdelazeez.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run deploy"
   },
   "name": "fareeda-portfolio",
   "type": "module",
